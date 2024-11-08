@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (imageContainer) {
         // Load 21 images (house1.jpg to house21.jpg)
-        for (let i = 1; i <= 21; i++) {
+        for (let i = 1; i <= 18; i++) {
             const img = document.createElement("img");
             img.src = `images/house${i}.jpg`;
             img.alt = `House Image ${i}`;
