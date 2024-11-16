@@ -189,3 +189,25 @@ footer a:hover {
 .location-section img:hover {
     transform: scale(1.05);
 }
+
+
+.video-section {
+    text-align: center; /* Centers the video */
+    margin: 20px 0;     /* Adds space above and below the video */
+}
+
+/* Video specific styling */
+.video-section video {
+    width: 80%;         /* Adjusts video width */
+    max-width: 100%;    /* Ensures video does not exceed its container */
+    height: auto;       /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for effect */
+}
+
+/* Optional: For better responsiveness on smaller screens */
+@media screen and (max-width: 768px) {
+    .video-section video {
+        width: 100%;     /* Makes video take full width on small screens */
+    }
+}
